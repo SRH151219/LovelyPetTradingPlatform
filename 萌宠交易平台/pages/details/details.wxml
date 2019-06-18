@@ -1,0 +1,19 @@
+<view>
+  <view class='con'>
+    <view class='address'>
+    <text>地址：</text>
+      {{detailsList.address}}
+    </view>
+    <view class='type'>
+      <image src='{{detailsList.type=="buy"?"../../images/buy.png":"../../images/sell.png"}}'></image>
+      <view>{{detailsList.type=="buy"?"求购":"转让"}}</view>
+    </view>
+    <view class='explain'>
+    <text>说明：</text>
+    {{detailsList.explain}}</view>
+    <view class='tel'>
+      <text>联系方式：</text> 12334154七234
+    </view>
+
+  </view>
+</view>

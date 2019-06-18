@@ -1,0 +1,8 @@
+<view id='container'>
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="17" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location ></map>
+
+  <view class='tab'>
+    <view bindtap="handlePubic">发布</view>
+    <view bindtap="handleSearch">搜索</view>
+  </view>
+</view>

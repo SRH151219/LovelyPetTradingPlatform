@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "address": "北京市昌平区地铁昌平线",
+      "longitude": 116.233574,
+      "latitude": 40.220573,
+      "type": "sell",
+      "explain": "1111111",
+      "telphone": "2222222",
+      "id": 7
+    },
+    {
+      "address": "北京市昌平区地铁昌平线",
+      "longitude": 116.233574,
+      "latitude": 40.220573,
+      "type": "buy",
+      "explain": "qqqqqqq",
+      "telphone": "sssssssssssss",
+      "id": 8
+    },
+    {
+      "address": "北京市昌平区鼓楼南街",
+      "longitude": 116.23374,
+      "latitude": 40.22363,
+      "type": "buy",
+      "explain": "ddddd",
+      "telphone": "ssssssssss",
+      "id": 9
+    },
+    {
+      "address": "北京市昌平区",
+      "longitude": 116.23354,
+      "latitude": 40.21985,
+      "type": "sell",
+      "explain": "wwww",
+      "telphone": "33333333",
+      "id": 10
+    },
+    {
+      "address": "北京市昌平区政府街20号鑫隆商厦4层",
+      "longitude": 116.23232,
+      "latitude": 40.22035,
+      "type": "buy",
+      "explain": "eeeee",
+      "telphone": "ttttttttt",
+      "id": 11
+    },
+    {
+      "address": "北京市昌平区政府街19号",
+      "longitude": 116.23128,
+      "latitude": 40.22077,
+      "type": "buy",
+      "explain": "dddd",
+      "telphone": "vvvvvvv",
+      "id": 12
+    },
+    {
+      "address": "",
+      "longitude": "",
+      "latitude": "",
+      "type": "",
+      "explain": "",
+      "telphone": "",
+      "id": 13
+    },
+    {
+      "address": "北京市东城区东长安街",
+      "longitude": 116.397827,
+      "latitude": 39.90374,
+      "type": "buy",
+      "explain": "sss",
+      "telphone": "sssssssssssss",
+      "id": 14
+    }
+  ]
+}

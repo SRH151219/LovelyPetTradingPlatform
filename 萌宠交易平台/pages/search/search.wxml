@@ -1,0 +1,14 @@
+<view>
+  <view class='search'>
+    <input type='text' bindinput='handleInput'></input>
+    <text>搜索</text>
+  </view>
+
+  <view class='box'>
+    <view class='con' wx:for="{{searchList}}" wx:key="*this" data-id="{{item.id}}" bindtap="handleDetails">
+      <view>{{item.address}}</view>
+      <view>{{item.explain}}</view>
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+<view id='public'>
+  <view>
+    <label>我的地址</label>
+    <input type='text' placeholder='请输入地址' value = "{{address}}" bindtap='handleChooseAddress'></input>
+  </view>
+  <view>
+   <label>类型</label>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label>
+        <radio value='buy' />求购
+      </label>
+      <label>
+        <radio value='sell' />转让
+      </label>
+    </radio-group>
+  </view>
+  <view>
+    <label>说明</label>
+    <input type='text' placeholder='请输入必须说明' bindinput='handleExplain'></input>
+  </view>
+  <view>
+    <label>联系方式</label>
+    <input type='text' placeholder='请输入联系方式' bindinput='handleTel'></input>
+  </view>
+
+  <button bindtap="handleSendMsg">发布信息</button>
+</view>
